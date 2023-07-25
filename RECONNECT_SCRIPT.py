@@ -1,6 +1,6 @@
 import platform, subprocess
 
-subprocess.Popen(["bash","sudo route add -net 192.168.1.0 netmask 255.255.255.0 gw 10.0.0.100"])
+
 
 def ping(host_or_ip, packets=1, timeout=500):
     if platform.system().lower() == 'windows':
